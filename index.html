@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main-container flex justify-content align-items align-content">
+        <div class="item red">1</div>
+        <div class="item blue">2</div>
+        <div class="item orange">3</div>
+        <div class="item brown">4</div>
+        <div class="item violet">5</div>
+        <div class="item green">6</div>
+        <div class="item turquoise">7</div>
+        <div class="item yellowgreen">8</div>
+        <div class="item tomato">9</div>
+        <div class="item steelblue">10</div>
+    </section>
+    <div class="buttons">
+        <p>Flex-flow</p>
+        <button onclick="setRow()">btn-flow-row</button>
+        <button onclick="setRowReverse()">btn-flow-row-reverse</button>
+        <button onclick="setColumn()">btn-flow-column</button>
+        <button onclick="setColumnReverse()">btn-flow-column-reverse</button>
+        <button onclick="setNoWrap()">btn-flow-nowrap</button>
+        <button onclick="setWrap()">btn-flow-wrap</button>
+        <button onclick="setWrapReverse()">btn-flow-wrap-reverse</button>
+
+        <p>Justify-content</p>
+        <button onclick="setStart()">flex-start</button>
+        <button onclick="setEnd()">flex-end</button>
+        <button onclick="setCenter()">center</button>
+        <button onclick="setSpaceBetween()">space-between</button>
+        <button onclick="setSpaceAround()">space-around</button>
+
+        <p>Align-items</p>
+        <button onclick="setItems()">center</button>
+        <button onclick="setAlignItemsStretch()">stretch</button>
+        <button onclick="setAlignItemsStart()">flex-start</button>
+        <button onclick="setAlignItemsEnd()">flex-end</button>
+        <button onclick="setAlignItemsBaseline()">baseline</button>
+
+        <p>Align-content</p>
+        <button onclick="setAlignContentCenter()">center</button>
+        <button onclick="setAlignContentStretch()">stretch</button>
+        <button onclick="setAlignContentStart()">flex-start</button>
+        <button onclick="setAlignContentEnd()">flex-end</button>
+        <button onclick="setAlignContentBetween()">space-between</button>
+        <button onclick="setAlignContentAround()">space-around</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

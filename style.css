@@ -1,0 +1,76 @@
+.main-container {
+    max-width: 500px;
+    height: 300px;
+    background-color: #ccc;
+    border: 2px solid blueviolet;
+    display: flex;
+    margin: auto;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.green {
+    background-color: green;
+}
+
+.turquoise {
+    background-color: turquoise;
+}
+
+.yellowgreen {
+    background-color: yellowgreen;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+.steelblue {
+    background-color: steelblue;
+}
+
+/*Variables*/
+
+.flex {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.justify-content {
+    justify-content: flex-start;
+}
+
+.align-items {
+    align-items: flex-start;
+}
+
+.align-content {
+    align-content: flex-start;
+}
